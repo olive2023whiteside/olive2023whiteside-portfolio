@@ -1,0 +1,132 @@
+/* CSS Styling for Portfolio Page */
+/* Menu box styling */
+.nav2{
+  color: white;
+  height: 1200px;
+
+/*   align-items: center; */
+  display: flex;
+  background-color: #5c82a6;
+  padding: 25px;
+  padding-top: 50px;
+  padding-right: 55px;
+  float: right;
+}
+
+/* Menu Position  */
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+/* Menu styling */
+nav ul li{
+  list-style: none;
+
+}
+
+/* Menu text styling */
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+/* Hover Effect for Menu */
+nav ul li::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: orange;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width:100%;
+}
+
+/* First website container sizing and hover animation */
+.container1{
+  width: 80%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+}
+
+.container1:hover{
+  background: orange;
+  transition: 1s;
+}
+
+/* Space Duck container sizing and hover animation */
+.container2{
+  width: 80%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+}
+
+.container2:hover{
+  background: orange;
+  transition: 1s;
+}
+
+/* Meditiation container sizing and hover animation */
+.container3{
+  width: 80%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+}
+
+.container3:hover{
+  background: orange;
+  transition: 1s;
+}
+
+/* Vampire container sizing and hover animation */
+.container4{
+  width: 80%;
+  padding: 15px 25px;
+  padding-bottom: 10px;
+  margin: 10px 15px;
+}
+
+.container4:hover{
+  background: orange;
+  transition: 1s;
+}
+
+/* Embed Image & Styling */
+.card{
+  width:200px;
+  height: 230px;
+  float: left;
+}
+
+/* Project title text formatting */
+#port{
+  font-size: 50px;
+  padding-left: 25px;
+}
+
+/* Project sub-Title text formatting */
+#subhead{
+  font-size: 25px;
+   text-decoration: none;
+}
+
+/* Project text formatting (text in containers)*/
+#description{
+  font-size: 18px;
+   text-decoration: none;
+}
+
+.text1{
+  position: relative;
+  left: 20px;
+  margin-right: 60px;
+  padding-left: 100px;
+  text-decoration: none;
+  color: black;
+}

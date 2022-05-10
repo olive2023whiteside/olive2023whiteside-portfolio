@@ -1,0 +1,93 @@
+/* CSS For About Page */
+/* Menu box styling */
+.nav2{
+  color: white;
+  height: 650px;
+/*   align-items: center; */
+  display: flex;
+  background-color: #5c82a6;
+  padding: 25px;
+  padding-top: 50px;
+  padding-right: 55px;
+  float: right;
+}
+
+/* Menu Position  */
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+/* Menu styling */
+nav ul li{
+  list-style: none;
+/*   padding: 3px 30px; */
+/*   position: relative; */
+
+}
+
+/* Menu text styling */
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+/* Hover Effect for Menu */
+nav ul li::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: orange;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width:100%;
+}
+
+.container{
+  width: 80%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+}
+
+/* Embed Image & Styling */
+.card{
+  position: fixed;
+  left: 70px;
+  top: 90px;
+  width:200px;
+  height: 230px;
+  float: left;
+}
+
+/* Project Title text formatting */
+#intro{
+  font-size: 50px;
+  padding-left: 25px;
+  position: fixed;
+  left: 300px;
+}
+
+/* Project sub-Title text formatting */
+#subhead{
+  font-size: 25px;
+}
+
+/* Project text formatting (text in containers)*/
+#description{
+  font-size: 18px;
+}
+
+.text1{
+  position: fixed;
+  left: 2px;
+  right: 300px;
+  top: 350px;
+  margin-right: 60px;
+  padding-left: 100px;
+}
