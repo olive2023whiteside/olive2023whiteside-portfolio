@@ -57,4 +57,24 @@ button{
   outline: grey;
   margin-top: 30px;
 }
-  
+
+/* Navigation styling for home menu */
+nav{
+  color: white;
+  height: 50px;
+  align-items: center;
+  display: flex;
+}
+
+nav{
+   position: fixed;
+  left: 625px;
+  top: 450px;
+}
+
+/* Home menus button link styling */
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}  
